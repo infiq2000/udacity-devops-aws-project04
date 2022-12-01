@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+[[![CircleCI](https://circleci.com/gh/circleci/circleci-docs/tree/udacity-devops-aws-project04.svg?style=svg)](https://app.circleci.com/pipelines/github/infiq2000/udacity-devops-aws-project04/1/workflows/217e0564-ddbe-433a-874c-143462cf4295)
+
 
 ## Project Overview
 
