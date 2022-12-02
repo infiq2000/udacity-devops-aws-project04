@@ -5,11 +5,11 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath="datht20fpt/ml_traning"
+dockerpath="datht20fpt/ml_traning:latest"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run datht20fptapp --image=$dockerpath:latest --port=80 --labels="app=datht20fptapp,env=prod"
+kubectl create deploy ml-training --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
